@@ -1,9 +1,9 @@
 # Azure Databricks & PySpark Data Engineering Project
 
 ## 📌 Project Overview
-This repository showcases my hands-on experience with **Azure Databricks and PySpark**
+This repository showcases my hands-on experience with **Azure Databricks, Azure Data Factory, and PySpark**
 
-The project focuses on building an **end-to-end data pipeline** using **Azure Databricks, PySpark, and Delta Lake**, demonstrating skills in **data ingestion, transformation, and optimization**.
+The project focuses on building an **end-to-end data pipeline** using **Azure Databricks, Azure Data Factory, PySpark, and Delta Lake**, demonstrating skills in **data ingestion, transformation, and optimization**.
 
 ## 🏗️ Technologies Used
 - **Azure Databricks** - Managed Spark environment
