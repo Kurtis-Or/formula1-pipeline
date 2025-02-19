@@ -44,12 +44,11 @@ The project implements a **scalable data pipeline** following these steps:
 2. **Data Cleaning & Transformation**: Using **PySpark DataFrames**, data is transformed, deduplicated, and enriched.
 3. **Data Storage & Processing**:
    - Processed data is written to **Delta Lake** in **Azure Data Lake Storage (ADLS)**.
-   - Partitioning and **Z-Ordering** are applied for optimization.
 4. **Incremental Processing**: Change Data Capture (CDC) is handled using **Merge into** statements in **Delta Lake**.
 5. **Performance Optimization**: Caching, Bucketing, and AQE (Adaptive Query Execution) are implemented.
 6. **Pipeline Orchestration & Triggers**:
    - Azure Data Factory **pipelines** automate data movement and transformation.
-   - **Triggers** are configured for **scheduled (time-based)** and **event-based** executions.
+   - **Triggers** are configured for Tumbling Windows as all of the data is historical and no longer being updated
 7. **Data Export**: Data is written to **Parquet files** and exposed to downstream analytics platforms.
 
 This pipeline ensures **data reliability, scalability, automation, and efficiency** using best practices in **Apache Spark, Databricks, and Azure Data Factory**.
