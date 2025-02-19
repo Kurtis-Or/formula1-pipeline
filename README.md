@@ -14,6 +14,10 @@ The project focuses on building an **end-to-end data pipeline** using **Azure Da
 - **Azure DevOps/GitHub** - Version control and CI/CD
 - **Python & SQL** - Data transformations
 
+## 🛠️ Project Architecture
+
+![f1_architecture](https://github.com/user-attachments/assets/7a1ba4b3-fd8c-481a-8eeb-f5143bb51af3)
+
 ## 📂 Repository Structure
 ```
 📁 formula1-pipeline
